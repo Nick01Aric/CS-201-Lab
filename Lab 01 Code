@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
 
-    float distance, time, velocity;
+    double distance, time, velocity;
 
     cout << "Enter how many miles you are traveling " << endl;
     cin >> distance;
@@ -18,7 +18,7 @@ int main() {
     time = distance/velocity;
 
     cout << endl;
-    cout << "At " << velocity << " mph it will take " << time << " hours to travel " << distance << " miles." << endl;
+    cout << "At " << velocity << " mph it will take " << time << " hours to travel " << distance << " miles to your destination." << endl;
     
     return 0;
 
